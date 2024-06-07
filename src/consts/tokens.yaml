@@ -13,7 +13,7 @@ tokens:
     collateralAddress: '0x0000000000000000000000000000000000000000'
     logoURI: '/logos/weth.png'
     connections:
-      - { token: ethereum|alfajores|0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f }
+      - { token: ethereum|geth45203|0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f }
   - chainName: geth45203
     standard: EvmHypSynthetic
     decimals: 18
