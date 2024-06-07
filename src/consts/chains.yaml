@@ -8,13 +8,13 @@ geth45202:
   chainId: 45202
   domainId: 45202
   name: geth45202
-  protocol: optimism
+  protocol: ethereum
   rpcUrls:
     - http: http://54.255.208.58:9092
 geth45203:
   chainId: 45203
   domainId: 45203
   name: geth45203
-  protocol: optimism
+  protocol: ethereum
   rpcUrls:
     - http: http://54.255.208.58:9093
