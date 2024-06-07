@@ -4,21 +4,22 @@
 ---
 tokens:
   # Eth Mainnet HypNative token
-  - chainName: sepolia
+  - chainName: geth45202
     standard: EvmHypNative
     decimals: 18
     symbol: ETH
     name: Ether
-    addressOrDenom: '0x767C51a91CC9dEF2F24C35c340649411D6390320'
+    addressOrDenom: '0x4A679253410272dd5232B3Ff7cF5dbB88f295319'
+    collateralAddress: '0x0000000000000000000000000000000000000000',
     logoURI: '/logos/weth.png'
     connections:
-      - { token: ethereum|alfajores|0x8bF6Ca2Dca1DF703Cb9144cef6A4d86abA7776C4 }
-  - chainName: alfajores
+      - { token: ethereum|alfajores|0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f }
+  - chainName: geth45203
     standard: EvmHypSynthetic
     decimals: 18
     symbol: ETH
     name: Ether
-    addressOrDenom: '0x8bF6Ca2Dca1DF703Cb9144cef6A4d86abA7776C4'
+    addressOrDenom: '0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f'
     logoURI: '/logos/weth.png'
     connections:
-      - { token: ethereum|sepolia|0x767C51a91CC9dEF2F24C35c340649411D6390320 }
+      - { token: ethereum|geth45202|0x4A679253410272dd5232B3Ff7cF5dbB88f295319 }
