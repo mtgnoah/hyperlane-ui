@@ -14,7 +14,7 @@ geth45202:
     symbol: ETH
   protocol: ethereum
   rpcUrls:
-  - http: https://54.255.208.58:2500
+  - http: http://54.255.208.58:3000
 geth45203:
   chainId: 45203
   domainId: 45203
@@ -25,7 +25,7 @@ geth45203:
     symbol: ETH
   protocol: ethereum
   rpcUrls:
-  - http: https://54.255.208.58:2502
+  - http: http://54.255.208.58:9093
 
 
 
