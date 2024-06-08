@@ -1,24 +1,19 @@
-# A list of Warp UI token configs and other options for the WarpCore
-# Configs can be defined here, in tokens.json, or in tokens.ts
-# The input here is typically the output of the Hyperlane CLI warp deploy command
----
 tokens:
-  # Eth Mainnet HypNative token
-  - chainName: geth45202
-    standard: EvmHypNative
-    decimals: 18
-    symbol: ETH
-    name: Ether
-    addressOrDenom: '0x0000000000000000000000000000000000000000'
-    logoURI: '/logos/weth.png'
-    connections:
-      - { token: ethereum|geth45203|0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f }
-  - chainName: geth45203
-    standard: EvmHypSynthetic
-    decimals: 18
-    symbol: ETH
-    name: Ether
-    addressOrDenom: '0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f'
-    logoURI: '/logos/weth.png'
-    connections:
-      - { token: ethereum|geth45202|0x4A679253410272dd5232B3Ff7cF5dbB88f295319 }
+- addressOrDenom: '0x4A679253410272dd5232B3Ff7cF5dbB88f295319'
+  chainName: geth45206
+  connections:
+  - token: ethereum|geth45207|0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f
+  decimals: 18
+  logoURI: /logos/weth.png
+  name: Ether6
+  standard: EvmHypNative
+  symbol: ETH6
+- addressOrDenom: '0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f'
+  chainName: geth45207
+  connections:
+  - token: ethereum|geth45206|0x4A679253410272dd5232B3Ff7cF5dbB88f295319
+  decimals: 18
+  logoURI: /logos/weth.png
+  name: Ether7
+  standard: EvmHypSynthetic
+  symbol: ETH7

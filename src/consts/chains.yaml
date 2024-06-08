@@ -4,28 +4,28 @@
 # Schema here: https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/typescript/sdk/src/metadata/chainMetadataTypes.ts
 ---
 # Example using local anvil chain:
-geth45202:
-  chainId: 45202
-  domainId: 45202
-  name: geth45202
+geth45206:
+  chainId: 45206
+  domainId: 45206
+  name: geth45206
   nativeToken:
     decimals: 18
     name: Eth2
     symbol: ETH
   protocol: ethereum
   rpcUrls:
-  - http: http://54.255.208.58:3000
-geth45203:
-  chainId: 45203
-  domainId: 45203
-  name: geth45203
+  - http: http://54.255.208.58/r1
+geth45207:
+  chainId: 45207
+  domainId: 45207
+  name: geth45207
   nativeToken:
     decimals: 18
     name: Eth3
     symbol: ETH
   protocol: ethereum
   rpcUrls:
-  - http: http://54.255.208.58:9093
+  - http: http://54.255.208.58/r2
 
 
 
